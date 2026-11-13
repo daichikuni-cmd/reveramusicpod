@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ReveraMusicPod</string>
+    <string name="tab_play">再生</string>
+    <string name="tab_library">ライブラリ</string>
+    <string name="tab_storage">ストレージ</string>
+    <string name="tab_settings">設定</string>
+    
+    <string name="now_playing">再生中</string>
+    <string name="no_track_playing">再生中の曲はありません</string>
+    <string name="unknown_artist">不明なアーティスト</string>
+    <string name="unknown_album">不明なアルバム</string>
+    
+    <string name="storage_local">端末 &amp; SDカード</string>
+    <string name="storage_drive">Google Drive</string>
+    <string name="add_folder">フォルダを追加</string>
+    <string name="scan_storage">ストレージを再スキャン</string>
+    
+    <string name="settings_title">設定</string>
+    <string name="settings_set_default_launcher">デフォルトのホームアプリに設定</string>
+    <string name="settings_set_default_launcher_desc">ReveraMusicPodを常時ホーム画面にして音楽専用機にします</string>
+    <string name="settings_audio">オーディオ＆再生</string>
+    <string name="settings_haptics">触覚フィードバック（振動）</string>
+    <string name="settings_haptics_desc">ブラインド操作やジェスチャー時に振動で通知</string>
+    <string name="settings_sleep_timer">おやすみタイマー</string>
+    <string name="settings_cloud">クラウド＆Drive同期</string>
+
+    <string name="settings_audio_output">オーディオ出力（モノラル / ステレオ）</string>
+    <string name="settings_audio_output_desc">片耳イヤホンや単一スピーカー環境に便利なモノラル（L+R平均）変換</string>
+    <string name="settings_stereo">ステレオ（標準）</string>
+    <string name="settings_mono">モノラル（L+R）</string>
+
+    <string name="settings_ext_filter">表示拡張子フィルター（録音非表示）</string>
+    <string name="settings_ext_filter_desc">OFFにした拡張子の音源ファイル（ボイスメモや録音データなど）をライブラリから非表示にします</string>
+
+    <string name="settings_play_updates_title">アプリアップデート（Google Play）</string>
+    <string name="settings_play_updates_desc">Google Playストアで端末内アプリの最新更新の確認や自動更新設定を行います</string>
+    <string name="settings_play_check_updates">Playストアでアプリの更新を確認</string>
+    <string name="settings_play_auto_update_settings">自動更新設定を開く</string>
+
+    <!-- General / Navigation / Controls -->
+    <string name="nine_apps_edit_hint">変更したいアプリをタップしてください</string>
+    <string name="nine_apps_normal_hint">タップで起動 • 長押しでアプリ変更</string>
+    <string name="done">完了</string>
+    <string name="cancel">キャンセル</string>
+    <string name="pause">一時停止</string>
+    <string name="resume">再開</string>
+    <string name="scanning_local">端末内をスキャン中... (検出: %d曲)</string>
+    <string name="filter_cached_count">キャッシュ済 (%d)</string>
+    <string name="filter_local_count">端末 (%d)</string>
+    <string name="filter_drive_count">Drive (%d)</string>
+    <string name="caching_in_progress_count">キャッシュ処理中 (%d件)...</string>
+    <string name="incomplete_downloads_exist">未完了のダウンロードがあります</string>
+    <string name="empty_cached_folders_title">キャッシュ済みのフォルダがありません</string>
+    <string name="empty_cached_folders_desc">端末内のフォルダを追加するか、Google Driveのフォルダをキャッシュ保存するとここに表示されます。</string>
+    <string name="drive_not_connected_title">Google Drive未接続</string>
+    <string name="drive_not_connected_desc">Googleアカウントと連携すると、マイドライブや共有ドライブの音楽フォルダが階層ツリーで表示されます。</string>
+    <string name="syncing_or_loading">同期・読み込み中...</string>
+    <string name="no_tracks_add_folder_hint">楽曲がありません。「フォルダを追加」を行ってください。</string>
+    <string name="default_home_ok">デフォルトホーム: OK</string>
+    <string name="doze_ok">音途切れ防止: OK</string>
+    <string name="doze_title">スリープ中の音途切れ防止（Doze対策）</string>
+    <string name="doze_status_not_ignored">未除外（画面消灯時にOSが停止する可能性あり）</string>
+    <string name="doze_desc">古い端末や一部のAndroid機種では、画面消灯後にバッテリー最適化（Doze）が働き、バックグラウンド再生が強制終了されることがあります。最適化を除外することで常時安定した連続再生が維持されます。</string>
+    <string name="doze_button_request">バッテリー最適化を除外する（推奨）</string>
+    <string name="doze_button_check">バッテリー最適化設定を確認</string>
+    <string name="sleep_timer_title">おやすみタイマー（画面減光対応）</string>
+    <string name="sleep_timer_active_format">稼働中: 残り %d分%02d秒 (明るさ: %d%%)</string>
+    <string name="sleep_timer_off">OFF</string>
+    <string name="sleep_timer_desc">タイマー終了2分前から画面輝度を徐々に落とし、就寝を妨げずに消灯。終了時はExoPlayerを完全停止してリソースを解放し、バッテリー消耗を防ぎます。</string>
+    <string name="sleep_timer_end_of_track">曲終了時</string>
+    <string name="cloud_account_status">アカウント状態</string>
+    <string name="cloud_status_connected">接続中 (%s)</string>
+    <string name="cloud_status_disconnected">未接続</string>
+    <string name="cloud_disconnect">切断</string>
+    <string name="cloud_connect">接続</string>
+    <string name="cloud_search_root">探索ルート:</string>
+    <string name="cloud_sync_diff">差分同期</string>
+    <string name="cloud_sync_full">フル再同期</string>
+    <string name="cloud_wifi_only">Wi-Fi接続時のみ保存</string>
+    <string name="cloud_wifi_only_desc">モバイルデータ通信でのパケット消費を保護</string>
+    <string name="cloud_current_network">現在の通信: %s</string>
+    <string name="cloud_cache_size">楽曲キャッシュ容量</string>
+    <string name="cloud_cache_current_usage">現在使用量: %s</string>
+    <string name="cloud_cache_all">全曲キャッシュ</string>
+    <string name="cloud_cache_delete">削除</string>
+    <string name="settings_audio_controls_title">オーディオ &amp; 操作設定</string>
+    <string name="settings_volume">アプリ内再生音量</string>
+    <string name="settings_pause_bt_title">スマート一時停止（イヤホン抜去・Bluetooth切断）</string>
+    <string name="settings_pause_bt_desc">有線イヤホンの抜去やBluetooth切断時に瞬時に一時停止し、スピーカーからの音漏れを防止します</string>
+
+    <!-- Library / Music Hub -->
+    <string name="hub_category_albums">アルバム</string>
+    <string name="hub_category_forms">形式</string>
+    <string name="hub_category_composers">作曲家</string>
+    <string name="hub_category_genres">ジャンル</string>
+    <string name="library_title">ライブラリ</string>
+    <string name="tracks_available_count">%d 曲利用可能</string>
+    <string name="search_placeholder">曲名・アーティスト・アルバムを検索...</string>
+    <string name="now_playing_title">再生中: %s</string>
+    <string name="next_track_title">次の曲: %s • %s</string>
+    <string name="queue_remaining_count">残り %d曲</string>
+    <string name="compilation_artist">コンピレーション • Various Artists</string>
+    <string name="artist_tracks_duration">%s • %d曲 • %s</string>
+    <string name="tracks_albums_count">%d曲 • %dアルバム</string>
+    <string name="form_tracks_composers_albums">%d曲 • %d作曲家/演奏家 • %dアルバム</string>
+    <string name="play_all_tracks">全曲再生</string>
+    <string name="shuffle_play">シャッフル</string>
+    <string name="no_search_results">該当する楽曲が見つかりませんでした</string>
+    <string name="no_tracks_available">再生可能な楽曲がありません</string>
+    <string name="search_different_keyword">別のキーワードで検索してください</string>
+    <string name="no_tracks_add_storage_hint">ストレージ画面で音楽フォルダを追加するか、Google Driveを同期してください</string>
+    <string name="open_storage_settings">ストレージ設定を開く</string>
+    <string name="up_next_tap_skip">UP NEXT (タップで即スキップ)</string>
+    <string name="no_upcoming_tracks_end">次の再生予定曲はありません（プレイリストの末尾です）</string>
+    <string name="queue_empty_hint">アルバムやフォルダから楽曲を再生すると、ここにキューが表示されます。</string>
+
+    <!-- Folder Tree & Legend -->
+    <string name="legend_all_cached">すべてキャッシュ済</string>
+    <string name="legend_partial_cached">一部キャッシュ済</string>
+    <string name="legend_saving">保存中/待機</string>
+    <string name="legend_not_cached">未キャッシュ(未保存)</string>
+    <string name="empty_drive_folder_desc">Googleドライブを同期すると、音楽ファイルを含むフォルダ階層ツリーが表示されます。</string>
+
+    <!-- Dialogs & Toasts -->
+    <string name="drive_auth_title">Google Drive 連携認証</string>
+    <string name="drive_auth_desc">下の画面からGoogleアカウントでログインすると、マイドライブや共有ドライブ内の音楽ファイルをストリーミング・キャッシュできます。</string>
+    <string name="drive_auth_success">Google Driveの認証に成功しました</string>
+    <string name="drive_auth_expired">Googleログインセッションが切れています。再接続が必要です。</string>
+    <string name="toast_sleep_timer_stopped">スリープタイマーが終了し、音楽を停止しました</string>
+    <string name="toast_sleep_timer_track_ended">曲終了のためスリープタイマーを起動し、音楽を停止しました</string>
+    <string name="toast_drive_sync_started">Google Driveと同期中...</string>
+    <string name="toast_drive_disconnected">Google Driveの連携を解除しました</string>
+</resources>

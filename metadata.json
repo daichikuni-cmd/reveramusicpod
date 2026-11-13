@@ -1,0 +1,8 @@
+{
+  "name": "ReveraMusicPod",
+  "description": "古いスマホを音楽プレーヤーにして楽しもう！",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

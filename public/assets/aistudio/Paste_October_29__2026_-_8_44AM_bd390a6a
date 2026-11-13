@@ -1,0 +1,296 @@
+10-29 08:37:37.817  2066  2113 I ActivityManager: Start proc 4544:com.android.chrome/u0a93 for backup com.android.chrome/org.chromium.chrome.browser.backup.ChromeBackupAgent
+10-29 08:37:38.280  2066  2113 I ActivityManager: Start proc 4592:com.android.vending/u0a38 for service com.android.vending/com.google.android.finsky.installservice.DevTriggeredUpdateService
+10-29 08:37:38.672  2066  2113 I ActivityManager: Start proc 4633:com.google.android.apps.nbu.files/u0a12 for backup com.google.android.apps.nbu.files/.backup.FilesBackupAgent
+10-29 08:37:40.032  2066  2113 I ActivityManager: Start proc 4749:com.android.cellbroadcastreceiver/1000 for backup com.android.cellbroadcastreceiver/.CellBroadcastBackupAgent
+10-29 08:37:40.078  2066  2614 I ActivityManager: Killing 3015:com.mediatek.camera/u0a52 (adj 906): empty #17
+DaichinoMac-mini:~ kuni$ adb logcat -d -v threadtime -t 3000 | grep -E "ReveraMusicPod|MusicPlaybackService|startForeground|Notification|MediaSession|ExoPlayer|AndroidRuntime|ActivityManager"
+10-29 08:15:03.080  2066  2113 I ActivityManager: Start proc 2726:com.mediatek.camera/u11a52 for service com.mediatek.camera/com.agold.feature.qs.WaterTile
+10-29 08:15:08.077  2066  3780 I ActivityManager: Killing 1274:com.google.android.googlequicksearchbox:googleapp/u0a31 (adj 906): empty #17
+10-29 08:17:33.054  2066  2120 I WindowManager: Focus moving from Window{4f5fa15 u0 kuni.in.ReveraMusicPod/com.example.MainActivity} to null
+10-29 08:20:41.718  2066  2113 I ActivityManager: Start proc 3015:com.mediatek.camera/u0a52 for service com.mediatek.camera/com.agold.feature.qs.WaterTile
+10-29 08:20:46.719  2066  3178 I ActivityManager: Killing 1394:com.google.process.gapps/u0a8 (adj 906): empty #17
+10-29 08:21:00.044  2066  2113 I ActivityManager: Start proc 3043:com.google.android.apps.messaging/u0a94 for service com.google.android.apps.messaging/androidx.work.impl.background.systemjob.SystemJobService
+10-29 08:21:00.810  2066  3178 W ActivityManager: Background start not allowed: service Intent { cmp=com.google.android.apps.messaging/com.google.apps.tiktok.concurrent.AndroidFuturesService (has extras) } to com.google.android.apps.messaging/com.google.apps.tiktok.concurrent.AndroidFuturesService from pid=3043 uid=10094 pkg=com.google.android.apps.messaging startFg?=false
+10-29 08:21:06.149  2066  2113 I ActivityManager: Start proc 3102:com.google.android.googlequicksearchbox:googleapp/u0a31 for service com.google.android.googlequicksearchbox/com.google.android.libraries.search.integrations.tiktok.RemoteWorkerService_googleapp
+10-29 08:21:07.840  2066  3786 I ActivityManager: Killing 1362:com.google.android.tts/u0a58 (adj 906): empty #17
+10-29 08:21:15.388  2066  3786 W ActivityManager: Background start not allowed: service Intent { cmp=com.google.android.apps.messaging/.shared.datamodel.action.execution.ActionExecutorImpl$EmptyService } to com.google.android.apps.messaging/.shared.datamodel.action.execution.ActionExecutorImpl$EmptyService from pid=3043 uid=10094 pkg=com.google.android.apps.messaging startFg?=false
+10-29 08:21:15.454  2066  3786 W ActivityManager: Background start not allowed: service Intent { cmp=com.google.android.apps.messaging/.shared.datamodel.action.execution.ActionExecutorImpl$EmptyService } to com.google.android.apps.messaging/.shared.datamodel.action.execution.ActionExecutorImpl$EmptyService from pid=3043 uid=10094 pkg=com.google.android.apps.messaging startFg?=false
+10-29 08:21:21.406  2066  3769 W ActivityManager: Background start not allowed: service Intent { cmp=com.google.android.apps.messaging/.shared.datamodel.action.execution.ActionExecutorImpl$EmptyService } to com.google.android.apps.messaging/.shared.datamodel.action.execution.ActionExecutorImpl$EmptyService from pid=3043 uid=10094 pkg=com.google.android.apps.messaging startFg?=false
+10-29 08:21:21.413  2066  3171 W ActivityManager: Background start not allowed: service Intent { cmp=com.google.android.apps.messaging/.shared.datamodel.action.execution.ActionExecutorImpl$EmptyService } to com.google.android.apps.messaging/.shared.datamodel.action.execution.ActionExecutorImpl$EmptyService from pid=3043 uid=10094 pkg=com.google.android.apps.messaging startFg?=false
+10-29 08:21:21.612  2066  3769 W ActivityManager: Background start not allowed: service Intent { cmp=com.google.android.apps.messaging/.shared.datamodel.action.execution.ActionExecutorImpl$EmptyService } to com.google.android.apps.messaging/.shared.datamodel.action.execution.ActionExecutorImpl$EmptyService from pid=3043 uid=10094 pkg=com.google.android.apps.messaging startFg?=false
+10-29 08:21:45.441  2066  3178 I ActivityManager: Killing 1430:com.google.android.apps.nbu.files/u0a12 (adj 906): empty #17
+10-29 08:22:04.474  2066  2616 W ActivityManager: Unable to start service Intent { act=com.google.android.gms.gcm.ACTION_TASK_READY cmp=com.google.android.gms/.nearby.discovery.offline.OfflineCachingService } U=11: not found
+10-29 08:22:04.477  2066  3171 W ActivityManager: Unbind failed: could not find connection for android.os.BinderProxy@301b959
+10-29 08:23:15.483  2066  2077 W ActivityManager: Background start not allowed: service Intent { cmp=com.google.android.apps.messaging/.shared.datamodel.action.execution.ActionExecutorImpl$EmptyService } to com.google.android.apps.messaging/.shared.datamodel.action.execution.ActionExecutorImpl$EmptyService from pid=3043 uid=10094 pkg=com.google.android.apps.messaging startFg?=false
+10-29 08:24:19.864  2066  2113 I ActivityManager: Start proc 3356:com.google.android.apps.tasks/u0a114 for service com.google.android.apps.tasks/.sync.SyncService
+10-29 08:24:42.075  2066  2077 I ActivityManager: Killing 1554:com.google.android.gm/u0a103 (adj 906): empty #17
+10-29 08:25:05.084  2066  6003 W ActivityManager: Unable to start service Intent { act=com.google.android.gms.gcm.ACTION_TASK_READY cmp=com.google.android.gms/.nearby.discovery.offline.OfflineCachingService } U=11: not found
+10-29 08:25:05.087  2066  3178 W ActivityManager: Unbind failed: could not find connection for android.os.BinderProxy@aba41e
+10-29 08:25:06.016  2066  2113 I ActivityManager: Start proc 3454:com.google.android.gm/u0a103 for broadcast com.google.android.gm/com.google.firebase.iid.FirebaseInstanceIdReceiver
+10-29 08:25:32.317  2066  3169 I ActivityManager: Killing 1689:com.google.android.apps.docs/u0a77 (adj 906): empty #17
+10-29 08:26:37.824  2066  2113 I ActivityManager: Start proc 3710:android.process.acore/u0a6 for content provider com.android.providers.contacts/.ContactsProvider2
+10-29 08:27:06.047  2066  2066 I ActivityManager: Killing 1492:com.google.android.apps.photos/u0a96 (adj 906): empty #17
+10-29 08:27:50.991  2066  2113 I ActivityManager: Start proc 3758:com.google.android.apps.messaging/u11a94 for service com.google.android.apps.messaging/androidx.work.impl.background.systemjob.SystemJobService
+10-29 08:27:51.426  2066  2113 I ActivityManager: Start proc 3806:com.google.process.gservices/u11a8 for content provider com.google.android.gsf/.gservices.GservicesProvider
+10-29 08:27:51.641  2066  3178 I ActivityManager: Killing 32311:com.google.android.apps.youtube.music/u0a105 (adj 906): empty #17
+10-29 08:28:11.741  2066  3778 I ActivityManager: Killing 1780:com.google.android.youtube/u0a104 (adj 906): empty #17
+10-29 08:28:12.375  2066  3769 W ActivityManager: Background start not allowed: service Intent { cmp=com.google.android.apps.messaging/.shared.datamodel.action.execution.ActionExecutorImpl$EmptyService } to com.google.android.apps.messaging/.shared.datamodel.action.execution.ActionExecutorImpl$EmptyService from pid=3758 uid=1110094 pkg=com.google.android.apps.messaging startFg?=false
+10-29 08:28:12.382  2066  3172 W ActivityManager: Background start not allowed: service Intent { cmp=com.google.android.apps.messaging/.shared.datamodel.action.execution.ActionExecutorImpl$EmptyService } to com.google.android.apps.messaging/.shared.datamodel.action.execution.ActionExecutorImpl$EmptyService from pid=3758 uid=1110094 pkg=com.google.android.apps.messaging startFg?=false
+10-29 08:28:12.592  2066  3172 W ActivityManager: Background start not allowed: service Intent { cmp=com.google.android.apps.messaging/.shared.datamodel.action.execution.ActionExecutorImpl$EmptyService } to com.google.android.apps.messaging/.shared.datamodel.action.execution.ActionExecutorImpl$EmptyService from pid=3758 uid=1110094 pkg=com.google.android.apps.messaging startFg?=false
+10-29 08:32:29.145  2066  2616 W ActivityManager: Unable to start service Intent { act=com.google.android.gms.gcm.ACTION_TASK_READY cmp=com.google.android.gms/.nearby.discovery.offline.OfflineCachingService } U=11: not found
+10-29 08:32:29.147  2066  3769 W ActivityManager: Unbind failed: could not find connection for android.os.BinderProxy@fd56318
+10-29 08:32:29.294  2066  2113 I ActivityManager: Start proc 4047:com.google.process.gapps/u11a8 for content provider com.google.android.gsf/.settings.GoogleSettingsProvider
+10-29 08:32:29.373  2066  2113 I ActivityManager: Start proc 4066:com.google.process.gapps/u0a8 for content provider com.google.android.gsf/.settings.GoogleSettingsProvider
+10-29 08:32:32.088  2066  2113 I ActivityManager: Start proc 4162:com.google.android.apps.photos/u0a96 for service com.google.android.apps.photos/.backup.apiservice.grpc.PhotosBackupGrpcService
+10-29 08:32:44.150  2066  2111 I ActivityManager: Waited long enough for: ServiceRecord{6145af5 u11 com.google.android.gms/.chimera.PersistentIntentOperationService}
+10-29 08:32:48.941  2066  2113 I ActivityManager: Start proc 4226:com.google.android.googlequicksearchbox:search/u11a31 for service com.google.android.googlequicksearchbox/androidx.work.impl.background.systemjob.SystemJobService
+10-29 08:32:54.367  2066  2398 I ActivityManager: Killing 1288:com.android.vending/u0a38 (adj 906): empty #17
+10-29 08:32:54.368  2066  2398 I ActivityManager: Killing 1506:com.android.vending:background/u0a38 (adj 906): empty #18
+10-29 08:32:54.369  2066  2398 I ActivityManager: Killing 13796:com.google.android.apps.maps/u0a66 (adj 906): empty #19
+10-29 08:33:11.266  2066  2616 I ActivityManager: Killing 1563:com.google.android.keep/u0a80 (adj 906): empty #17
+10-29 08:37:35.814  2066  2113 I ActivityManager: Start proc 4428:com.google.android.youtube/u0a104 for backup com.google.android.youtube/com.google.android.apps.youtube.app.application.backup.YouTubeBackupAgent
+10-29 08:37:36.559  2066  2111 I chatty  : uid=1000(system) ActivityManager identical 1 line
+10-29 08:37:37.117  2066  3186 I WindowManager: Relayout Window{4f5fa15 u0 kuni.in.ReveraMusicPod/com.example.MainActivity}: oldVis=4 newVis=0 focusMayChange = true
+10-29 08:37:37.137  2066  2120 I WindowManager: Focus moving from null to Window{4f5fa15 u0 kuni.in.ReveraMusicPod/com.example.MainActivity}
+10-29 08:37:37.817  2066  2113 I ActivityManager: Start proc 4544:com.android.chrome/u0a93 for backup com.android.chrome/org.chromium.chrome.browser.backup.ChromeBackupAgent
+10-29 08:37:38.280  2066  2113 I ActivityManager: Start proc 4592:com.android.vending/u0a38 for service com.android.vending/com.google.android.finsky.installservice.DevTriggeredUpdateService
+10-29 08:37:38.672  2066  2113 I ActivityManager: Start proc 4633:com.google.android.apps.nbu.files/u0a12 for backup com.google.android.apps.nbu.files/.backup.FilesBackupAgent
+10-29 08:37:40.032  2066  2113 I ActivityManager: Start proc 4749:com.android.cellbroadcastreceiver/1000 for backup com.android.cellbroadcastreceiver/.CellBroadcastBackupAgent
+10-29 08:37:40.078  2066  2614 I ActivityManager: Killing 3015:com.mediatek.camera/u0a52 (adj 906): empty #17
+10-29 08:37:40.249  2066  3786 I ActivityManager: Killing 2726:com.mediatek.camera/u11a52 (adj 906): empty #17
+10-29 08:37:40.254  2066  2113 I ActivityManager: Start proc 4780:com.google.android.videos/u0a69 for backup com.google.android.videos/com.google.android.apps.play.movies.common.service.backup.VideosBackupAgent
+10-29 08:37:40.820  4780  4780 W MediaSessionCompat: Couldn't find a unique registered media button receiver in the given context.
+10-29 08:37:41.009  2066  3781 I ActivityManager: Killing 3043:com.google.android.apps.messaging/u0a94 (adj 906): empty #17
+10-29 08:37:41.328  2066  2113 I ActivityManager: Start proc 4877:com.android.vending:background/u0a38 for service com.android.vending/com.google.frameworks.client.data.android.server.play.BackgroundProcessEndpointService
+10-29 08:37:41.716  2066  3781 I ActivityManager: Killing 3356:com.google.android.apps.tasks/u0a114 (adj 906): empty #17
+10-29 08:37:41.740  2066  2113 I ActivityManager: Start proc 4925:com.google.android.apps.docs/u0a77 for backup com.google.android.apps.docs/.drive.app.backup.DriveBackupAgent
+10-29 08:37:41.856   431   631 I BufferQueueProducer: [kuni.in.ReveraMusicPod/com.example.MainActivity#0](this:0x7a881d4800,id:4418,api:1,p:15459,c:431) queueBuffer: fps=0.43 dur=4603.97 max=4578.62 min=25.35
+10-29 08:37:42.315  2066  2371 I ActivityManager: Killing 3102:com.google.android.googlequicksearchbox:googleapp/u0a31 (adj 906): empty #17
+10-29 08:37:43.019  2066  2113 I ActivityManager: Start proc 5038:com.google.android.marvin.talkback/u0a99 for backup com.google.android.marvin.talkback/com.google.android.accessibility.talkback.TalkBackBackupAgent
+10-29 08:37:43.301  2066  2113 I ActivityManager: Start proc 5057:com.google.android.apps.wellbeing/u0a25 for backup com.google.android.apps.wellbeing/.backup.impl.WellbeingBackupAgent
+10-29 08:37:43.337  2066  3169 I ActivityManager: Killing 3710:android.process.acore/u0a6 (adj 906): empty #17
+10-29 08:37:43.987  2066  2371 I ActivityManager: Killing 32325:com.google.android.googlequicksearchbox:search/u0a31 (adj 906): empty #17
+10-29 08:37:44.178   431   630 I BufferQueueProducer: [kuni.in.ReveraMusicPod/com.example.MainActivity#0](this:0x7a881d4800,id:4418,api:1,p:15459,c:431) queueBuffer: fps=11.63 dur=2321.45 max=1873.20 min=5.12
+10-29 08:37:44.225 14741 14741 W NewAvrcpMediaPlayerWrapper: onPlaybackStateChanged(): kuni.in.ReveraMusicPod tried to update with no new data
+10-29 08:37:45.401   431   630 I BufferQueueProducer: [kuni.in.ReveraMusicPod/com.example.MainActivity#0](this:0x7a881d4800,id:4418,api:1,p:15459,c:431) queueBuffer: fps=17.99 dur=1223.07 max=851.53 min=13.62
+10-29 08:37:45.430 14741 14741 W NewAvrcpMediaPlayerWrapper: onPlaybackStateChanged(): kuni.in.ReveraMusicPod tried to update with no new data
+10-29 08:37:45.501  2066  2113 I ActivityManager: Start proc 5099:com.google.android.apps.youtube.music/u0a105 for backup com.google.android.apps.youtube.music/.application.backup.MusicBackupAgent
+10-29 08:37:46.035  2066  6003 I ActivityManager: Killing 3758:com.google.android.apps.messaging/u11a94 (adj 906): empty #17
+10-29 08:37:46.476   431   631 I BufferQueueProducer: [kuni.in.ReveraMusicPod/com.example.MainActivity#0](this:0x7a881d4800,id:4418,api:1,p:15459,c:431) queueBuffer: fps=21.40 dur=1074.60 max=692.24 min=13.92
+10-29 08:37:47.486   431   809 I BufferQueueProducer: [kuni.in.ReveraMusicPod/com.example.MainActivity#0](this:0x7a881d4800,id:4418,api:1,p:15459,c:431) queueBuffer: fps=36.63 dur=1009.99 max=350.63 min=3.63
+10-29 08:37:48.020  2066  2113 I ActivityManager: Start proc 5218:com.google.android.apps.maps/u0a66 for backup com.google.android.apps.maps/com.google.android.apps.gmm.backup.GmmPersistentBackupAgentHelper
+10-29 08:37:48.729  2066  2614 I ActivityManager: Killing 3454:com.google.android.gm/u0a103 (adj 906): empty #17
+10-29 08:37:48.884  2066  2616 W ActivityManager: Unable to start service Intent { cmp=com.google.android.projection.gearhead/com.google.android.apps.auto.carservice.service.impl.GearheadCarStartupService } U=0: not found
+10-29 08:37:48.889  2066  2616 W ActivityManager: Unbind failed: could not find connection for android.os.BinderProxy@6ef9d69
+10-29 08:37:49.798   431   809 I BufferQueueProducer: [kuni.in.ReveraMusicPod/com.example.MainActivity#0](this:0x7a881d4800,id:4418,api:1,p:15459,c:431) queueBuffer: fps=12.54 dur=2312.00 max=1815.60 min=14.47
+10-29 08:37:50.185  2066  2113 I ActivityManager: Start proc 5311:com.google.android.keep/u0a80 for backup com.google.android.keep/com.google.android.apps.keep.shared.backup.KeepBackupAgent
+10-29 08:37:50.236  2066  2120 I WindowManager: Focus moving from Window{4f5fa15 u0 kuni.in.ReveraMusicPod/com.example.MainActivity} to Window{4c6101b u0 kuni.in.ReveraMusicPod/com.example.MainActivity}
+10-29 08:37:50.394   431   809 I BufferQueueConsumer: [kuni.in.ReveraMusicPod/com.example.MainActivity#1](this:0x7a8cd0d800,id:4419,api:0,p:-1,c:431) setConsumerName: kuni.in.ReveraMusicPod/com.example.MainActivity#1
+10-29 08:37:50.394   431   809 I BufferQueueConsumer: [kuni.in.ReveraMusicPod/com.example.MainActivity#1](this:0x7a8cd0d800,id:4419,api:0,p:-1,c:431) setDefaultBufferSize: width=1272 height=2136
+10-29 08:37:50.403   431   630 I BufferQueueProducer: [kuni.in.ReveraMusicPod/com.example.MainActivity#1](this:0x7a8cd0d800,id:4419,api:1,p:15459,c:431) connect(P): api=1 producer=(15459:kuni.in.ReveraMusicPod) producerControlledByApp=true
+10-29 08:37:50.426  2066  3784 I ActivityManager: Killing 4047:com.google.process.gapps/u11a8 (adj 906): empty #17
+10-29 08:37:50.470  2066  2120 I WindowManager: Losing delayed focus: Window{4f5fa15 u0 kuni.in.ReveraMusicPod/com.example.MainActivity}
+10-29 08:37:50.472  5613  5613 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1552 onStartInput(EditorInfo{EditorInfo{packageName=kuni.in.ReveraMusicPod, inputType=0, inputTypeString=NULL, enableLearning=false, autoCorrection=false, autoComplete=false, imeOptions=0, privateImeOptions=null, actionName=UNSPECIFIED, actionLabel=null, initialSelStart=-1, initialSelEnd=-1, initialCapsMode=0, label=null, fieldId=-1, fieldName=null, extras=null, hintText=null, hintLocales=[]}}, false)
+10-29 08:37:51.027  2066  2113 I ActivityManager: Start proc 5352:com.android.documentsui/u0a14 for backup com.android.documentsui/.prefs.BackupAgent
+10-29 08:37:51.190  2066  3784 I ActivityManager: Killing 3806:com.google.process.gservices/u11a8 (adj 906): empty #17
+10-29 08:37:51.480   431  1515 I BufferQueueProducer: [kuni.in.ReveraMusicPod/com.example.MainActivity#1](this:0x7a8cd0d800,id:4419,api:1,p:15459,c:431) queueBuffer: fps=1.97 dur=1016.90 max=992.39 min=24.50
+10-29 08:37:51.594   431  1515 I BufferQueueProducer: [kuni.in.ReveraMusicPod/com.example.MainActivity#1](this:0x7a8cd0d800,id:4419,api:1,p:15459,c:431) disconnect(P): api 1
+10-29 08:37:51.611  2066  2120 I WindowManager: Focus moving from Window{4c6101b u0 kuni.in.ReveraMusicPod/com.example.MainActivity EXITING} to Window{4f5fa15 u0 kuni.in.ReveraMusicPod/com.example.MainActivity}
+10-29 08:37:51.647   431  1515 I BufferQueueProducer: [kuni.in.ReveraMusicPod/com.example.MainActivity#0](this:0x7a881d4800,id:4418,api:1,p:15459,c:431) queueBuffer: fps=14.60 dur=1849.15 max=962.26 min=15.57
+10-29 08:37:51.651  5613  5613 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1552 onStartInput(EditorInfo{EditorInfo{packageName=kuni.in.ReveraMusicPod, inputType=0, inputTypeString=NULL, enableLearning=false, autoCorrection=false, autoComplete=false, imeOptions=0, privateImeOptions=null, actionName=UNSPECIFIED, actionLabel=null, initialSelStart=-1, initialSelEnd=-1, initialCapsMode=0, label=null, fieldId=-1, fieldName=null, extras=null, hintText=null, hintLocales=[]}}, false)
+10-29 08:37:51.777   431  1515 W SurfaceFlinger: Attempting to set client state on removed layer: kuni.in.ReveraMusicPod/com.example.MainActivity#1
+10-29 08:37:51.777   431  1515 W SurfaceFlinger: Attempting to destroy on removed layer: kuni.in.ReveraMusicPod/com.example.MainActivity#1
+10-29 08:37:51.790   431   431 I BufferQueueConsumer: [kuni.in.ReveraMusicPod/com.example.MainActivity#1](this:0x7a8cd0d800,id:4419,api:1,p:-1,c:-1) disconnect(C)
+10-29 08:37:51.794   431   431 I BufferQueue: [kuni.in.ReveraMusicPod/com.example.MainActivity#1](this:0x7a8cd0d800,id:4419,api:1,p:-1,c:-1) ~BufferQueueCore
+10-29 08:37:52.477  2066  3162 W ActivityManager: Unable to start service Intent { act=com.google.android.gms.gcm.ACTION_TASK_READY cmp=com.google.android.gms/.nearby.discovery.offline.OfflineCachingService } U=11: not found
+10-29 08:37:52.479  2066  3162 W ActivityManager: Unbind failed: could not find connection for android.os.BinderProxy@a53374d
+10-29 08:37:52.490  2066  2113 I ActivityManager: Start proc 5394:android.process.acore/u0a6 for content provider com.android.providers.contacts/.ContactsProvider2
+10-29 08:37:52.537 14741 14741 I NewAvrcpBrowsedPlayerWrapper: Wrapping Media Browser kuni.in.ReveraMusicPod
+10-29 08:37:52.561  5099  5099 W YTPL.mediasession: MediaSession created
+10-29 08:37:52.570  4428  4428 W YTPL.mediasession: MediaSession created
+10-29 08:37:52.590  2066  2113 I ActivityManager: Start proc 5411:com.google.android.googlequicksearchbox:search/u0a31 for service com.google.android.googlequicksearchbox/com.google.android.libraries.assistant.auto.tng.media.mediabrowser.NewsMediaBrowserService
+10-29 08:37:52.662 14741 14741 I NewAvrcpBrowsedPlayerWrapper: onConnected: kuni.in.ReveraMusicPod is connected
+10-29 08:37:52.702 14741 14741 W NewAvrcpMediaPlayerWrapper: onPlaybackStateChanged(): kuni.in.ReveraMusicPod tried to update with no new data
+10-29 08:37:52.705 14741 14741 I NewAvrcpBrowsedPlayerWrapper: onConnected: kuni.in.ReveraMusicPod is connected
+10-29 08:37:52.705 14741 14741 I NewAvrcpBrowsedPlayerWrapper: getFolderItems: Connected to browsable player: kuni.in.ReveraMusicPod
+10-29 08:37:52.728  2066  2113 I ActivityManager: Start proc 5431:com.google.android.tts/u0a58 for backup com.google.android.tts/com.google.android.apps.speech.tts.googletts.settings.TTSBackupAgent
+10-29 08:37:52.799   431  1515 I BufferQueueProducer: [kuni.in.ReveraMusicPod/com.example.MainActivity#0](this:0x7a881d4800,id:4418,api:1,p:15459,c:431) queueBuffer: fps=1.74 dur=1152.35 max=1148.44 min=3.91
+10-29 08:37:52.824 16135 16156 W Bundle  : 	at android.app.Notification.fixDuplicateExtra(Notification.java:2780)
+10-29 08:37:52.824 16135 16156 W Bundle  : 	at android.app.Notification.fixDuplicateExtras(Notification.java:2770)
+10-29 08:37:52.824 16135 16156 W Bundle  : 	at android.app.Notification.readFromParcelImpl(Notification.java:2176)
+10-29 08:37:52.824 16135 16156 W Bundle  : 	at android.app.Notification.<init>(Notification.java:2104)
+10-29 08:37:52.824 16135 16156 W Bundle  : 	at android.service.notification.StatusBarNotification.<init>(StatusBarNotification.java:104)
+10-29 08:37:52.824 16135 16156 W Bundle  : 	at android.service.notification.StatusBarNotification$1.createFromParcel(StatusBarNotification.java:194)
+10-29 08:37:52.824 16135 16156 W Bundle  : 	at android.service.notification.StatusBarNotification$1.createFromParcel(StatusBarNotification.java:191)
+10-29 08:37:52.824 16135 16156 W Bundle  : 	at android.service.notification.IStatusBarNotificationHolder$Stub$Proxy.get(IStatusBarNotificationHolder.java:93)
+10-29 08:37:52.824 16135 16156 W Bundle  : 	at android.service.notification.NotificationListenerService$NotificationListenerWrapper.onNotificationPosted(NotificationListenerService.java:1226)
+10-29 08:37:52.824 16135 16156 W Bundle  : 	at android.service.notification.INotificationListener$Stub.onTransact(INotificationListener.java:72)
+10-29 08:37:52.826 23554  1089 W Bundle  : 	at android.app.Notification.fixDuplicateExtra(Notification.java:2780)
+10-29 08:37:52.826 23554  1089 W Bundle  : 	at android.app.Notification.fixDuplicateExtras(Notification.java:2770)
+10-29 08:37:52.826 23554  1089 W Bundle  : 	at android.app.Notification.readFromParcelImpl(Notification.java:2176)
+10-29 08:37:52.826 23554  1089 W Bundle  : 	at android.app.Notification.<init>(Notification.java:2104)
+10-29 08:37:52.826 23554  1089 W Bundle  : 	at android.service.notification.StatusBarNotification.<init>(StatusBarNotification.java:104)
+10-29 08:37:52.826 23554  1089 W Bundle  : 	at android.service.notification.StatusBarNotification$1.createFromParcel(StatusBarNotification.java:194)
+10-29 08:37:52.826 23554  1089 W Bundle  : 	at android.service.notification.StatusBarNotification$1.createFromParcel(StatusBarNotification.java:191)
+10-29 08:37:52.826 23554  1089 W Bundle  : 	at android.service.notification.IStatusBarNotificationHolder$Stub$Proxy.get(IStatusBarNotificationHolder.java:93)
+10-29 08:37:52.826 23554  1089 W Bundle  : 	at android.service.notification.NotificationListenerService$NotificationListenerWrapper.onNotificationPosted(NotificationListenerService.java:1226)
+10-29 08:37:52.826 23554  1089 W Bundle  : 	at android.service.notification.INotificationListener$Stub.onTransact(INotificationListener.java:72)
+10-29 08:37:52.826  2788  2805 W Bundle  : 	at android.app.Notification.fixDuplicateExtra(Notification.java:2780)
+10-29 08:37:52.826  2788  2805 W Bundle  : 	at android.app.Notification.fixDuplicateExtras(Notification.java:2770)
+10-29 08:37:52.826  2788  2805 W Bundle  : 	at android.app.Notification.readFromParcelImpl(Notification.java:2176)
+10-29 08:37:52.826  2788  2805 W Bundle  : 	at android.app.Notification.<init>(Notification.java:2104)
+10-29 08:37:52.826  2788  2805 W Bundle  : 	at android.service.notification.StatusBarNotification.<init>(StatusBarNotification.java:104)
+10-29 08:37:52.826  2788  2805 W Bundle  : 	at android.service.notification.StatusBarNotification$1.createFromParcel(StatusBarNotification.java:194)
+10-29 08:37:52.826  2788  2805 W Bundle  : 	at android.service.notification.StatusBarNotification$1.createFromParcel(StatusBarNotification.java:191)
+10-29 08:37:52.826  2788  2805 W Bundle  : 	at android.service.notification.IStatusBarNotificationHolder$Stub$Proxy.get(IStatusBarNotificationHolder.java:93)
+10-29 08:37:52.826  2788  2805 W Bundle  : 	at android.service.notification.NotificationListenerService$NotificationListenerWrapper.onNotificationPosted(NotificationListenerService.java:1226)
+10-29 08:37:52.826  2788  2805 W Bundle  : 	at android.service.notification.INotificationListener$Stub.onTransact(INotificationListener.java:72)
+10-29 08:37:52.826  8901  8925 W Bundle  : 	at android.app.Notification.fixDuplicateExtra(Notification.java:2780)
+10-29 08:37:52.826  8901  8925 W Bundle  : 	at android.app.Notification.fixDuplicateExtras(Notification.java:2770)
+10-29 08:37:52.826  8901  8925 W Bundle  : 	at android.app.Notification.readFromParcelImpl(Notification.java:2176)
+10-29 08:37:52.826  8901  8925 W Bundle  : 	at android.app.Notification.<init>(Notification.java:2104)
+10-29 08:37:52.826  8901  8925 W Bundle  : 	at android.service.notification.StatusBarNotification.<init>(StatusBarNotification.java:104)
+10-29 08:37:52.826  8901  8925 W Bundle  : 	at android.service.notification.StatusBarNotification$1.createFromParcel(StatusBarNotification.java:194)
+10-29 08:37:52.826  8901  8925 W Bundle  : 	at android.service.notification.StatusBarNotification$1.createFromParcel(StatusBarNotification.java:191)
+10-29 08:37:52.826  8901  8925 W Bundle  : 	at android.service.notification.IStatusBarNotificationHolder$Stub$Proxy.get(IStatusBarNotificationHolder.java:93)
+10-29 08:37:52.826  8901  8925 W Bundle  : 	at android.service.notification.NotificationListenerService$NotificationListenerWrapper.onNotificationPosted(NotificationListenerService.java:1226)
+10-29 08:37:52.826  8901  8925 W Bundle  : 	at android.service.notification.INotificationListener$Stub.onTransact(INotificationListener.java:72)
+10-29 08:37:52.831 16135 16156 W Bundle  : 	at android.app.Notification.fixDuplicateExtra(Notification.java:2780)
+10-29 08:37:52.831 16135 16156 W Bundle  : 	at android.app.Notification.fixDuplicateExtras(Notification.java:2770)
+10-29 08:37:52.831 16135 16156 W Bundle  : 	at android.app.Notification.readFromParcelImpl(Notification.java:2176)
+10-29 08:37:52.831 16135 16156 W Bundle  : 	at android.app.Notification.<init>(Notification.java:2104)
+10-29 08:37:52.831 16135 16156 W Bundle  : 	at android.service.notification.StatusBarNotification.<init>(StatusBarNotification.java:104)
+10-29 08:37:52.831 16135 16156 W Bundle  : 	at android.service.notification.StatusBarNotification$1.createFromParcel(StatusBarNotification.java:194)
+10-29 08:37:52.831 16135 16156 W Bundle  : 	at android.service.notification.StatusBarNotification$1.createFromParcel(StatusBarNotification.java:191)
+10-29 08:37:52.831 16135 16156 W Bundle  : 	at android.service.notification.IStatusBarNotificationHolder$Stub$Proxy.get(IStatusBarNotificationHolder.java:93)
+10-29 08:37:52.831 16135 16156 W Bundle  : 	at android.service.notification.NotificationListenerService$NotificationListenerWrapper.onNotificationPosted(NotificationListenerService.java:1226)
+10-29 08:37:52.831 16135 16156 W Bundle  : 	at android.service.notification.INotificationListener$Stub.onTransact(INotificationListener.java:72)
+10-29 08:37:52.833  8901  8925 W Bundle  : 	at android.app.Notification.fixDuplicateExtra(Notification.java:2780)
+10-29 08:37:52.833  8901  8925 W Bundle  : 	at android.app.Notification.fixDuplicateExtras(Notification.java:2770)
+10-29 08:37:52.833  8901  8925 W Bundle  : 	at android.app.Notification.readFromParcelImpl(Notification.java:2176)
+10-29 08:37:52.833  8901  8925 W Bundle  : 	at android.app.Notification.<init>(Notification.java:2104)
+10-29 08:37:52.833  8901  8925 W Bundle  : 	at android.service.notification.StatusBarNotification.<init>(StatusBarNotification.java:104)
+10-29 08:37:52.833  8901  8925 W Bundle  : 	at android.service.notification.StatusBarNotification$1.createFromParcel(StatusBarNotification.java:194)
+10-29 08:37:52.833  8901  8925 W Bundle  : 	at android.service.notification.StatusBarNotification$1.createFromParcel(StatusBarNotification.java:191)
+10-29 08:37:52.833  8901  8925 W Bundle  : 	at android.service.notification.IStatusBarNotificationHolder$Stub$Proxy.get(IStatusBarNotificationHolder.java:93)
+10-29 08:37:52.833  8901  8925 W Bundle  : 	at android.service.notification.NotificationListenerService$NotificationListenerWrapper.onNotificationPosted(NotificationListenerService.java:1226)
+10-29 08:37:52.833  8901  8925 W Bundle  : 	at android.service.notification.INotificationListener$Stub.onTransact(INotificationListener.java:72)
+10-29 08:37:52.833 23554  1089 W Bundle  : 	at android.app.Notification.fixDuplicateExtra(Notification.java:2780)
+10-29 08:37:52.833 23554  1089 W Bundle  : 	at android.app.Notification.fixDuplicateExtras(Notification.java:2770)
+10-29 08:37:52.833 23554  1089 W Bundle  : 	at android.app.Notification.readFromParcelImpl(Notification.java:2176)
+10-29 08:37:52.833 23554  1089 W Bundle  : 	at android.app.Notification.<init>(Notification.java:2104)
+10-29 08:37:52.833 23554  1089 W Bundle  : 	at android.service.notification.StatusBarNotification.<init>(StatusBarNotification.java:104)
+10-29 08:37:52.833 23554  1089 W Bundle  : 	at android.service.notification.StatusBarNotification$1.createFromParcel(StatusBarNotification.java:194)
+10-29 08:37:52.833 23554  1089 W Bundle  : 	at android.service.notification.StatusBarNotification$1.createFromParcel(StatusBarNotification.java:191)
+10-29 08:37:52.833 23554  1089 W Bundle  : 	at android.service.notification.IStatusBarNotificationHolder$Stub$Proxy.get(IStatusBarNotificationHolder.java:93)
+10-29 08:37:52.833 23554  1089 W Bundle  : 	at android.service.notification.NotificationListenerService$NotificationListenerWrapper.onNotificationPosted(NotificationListenerService.java:1226)
+10-29 08:37:52.833 23554  1089 W Bundle  : 	at android.service.notification.INotificationListener$Stub.onTransact(INotificationListener.java:72)
+10-29 08:37:52.834  2788  2805 W Bundle  : 	at android.app.Notification.fixDuplicateExtra(Notification.java:2780)
+10-29 08:37:52.834  2788  2805 W Bundle  : 	at android.app.Notification.fixDuplicateExtras(Notification.java:2770)
+10-29 08:37:52.834  2788  2805 W Bundle  : 	at android.app.Notification.readFromParcelImpl(Notification.java:2176)
+10-29 08:37:52.834  2788  2805 W Bundle  : 	at android.app.Notification.<init>(Notification.java:2104)
+10-29 08:37:52.834  2788  2805 W Bundle  : 	at android.service.notification.StatusBarNotification.<init>(StatusBarNotification.java:104)
+10-29 08:37:52.834  2788  2805 W Bundle  : 	at android.service.notification.StatusBarNotification$1.createFromParcel(StatusBarNotification.java:194)
+10-29 08:37:52.834  2788  2805 W Bundle  : 	at android.service.notification.StatusBarNotification$1.createFromParcel(StatusBarNotification.java:191)
+10-29 08:37:52.834  2788  2805 W Bundle  : 	at android.service.notification.IStatusBarNotificationHolder$Stub$Proxy.get(IStatusBarNotificationHolder.java:93)
+10-29 08:37:52.834  2788  2805 W Bundle  : 	at android.service.notification.NotificationListenerService$NotificationListenerWrapper.onNotificationPosted(NotificationListenerService.java:1226)
+10-29 08:37:52.834  2788  2805 W Bundle  : 	at android.service.notification.INotificationListener$Stub.onTransact(INotificationListener.java:72)
+10-29 08:37:53.098  2066  3162 I ActivityManager: Killing 4162:com.google.android.apps.photos/u0a96 (adj 906): empty #17
+10-29 08:37:53.099  2066  3162 I ActivityManager: Killing 4226:com.google.android.googlequicksearchbox:search/u11a31 (adj 906): empty #18
+10-29 08:37:54.938  2066  2113 I ActivityManager: Start proc 5495:com.google.android.calendar/u0a56 for backup com.google.android.calendar/.backup.CalendarBackupAgent
+10-29 08:37:55.126  2066  2113 I ActivityManager: Start proc 5516:com.android.providers.calendar/u0a15 for content provider com.android.providers.calendar/.CalendarProvider2
+10-29 08:37:55.428  2066  3786 I ActivityManager: Killing 4544:com.android.chrome/u0a93 (adj 906): empty #17
+10-29 08:37:55.743   431   630 I BufferQueueProducer: [kuni.in.ReveraMusicPod/com.example.MainActivity#0](this:0x7a881d4800,id:4418,api:1,p:15459,c:431) queueBuffer: fps=10.19 dur=2943.57 max=2311.59 min=7.03
+10-29 08:37:55.826 14741 14741 W NewAvrcpMediaPlayerWrapper: onPlaybackStateChanged(): kuni.in.ReveraMusicPod tried to update with no new data
+10-29 08:37:56.231  2066  2113 I ActivityManager: Start proc 5618:com.google.android.apps.photos/u0a96 for backup com.google.android.apps.photos/.kvbackup.PhotosBackupAgent
+10-29 08:37:56.439 32095 32095 I MagicTether: (REDACTED) [NotificationPresenter] cancelNotification: %d
+10-29 08:37:56.450 32095  5610 I MagicTether: (REDACTED) [NotificationPresenter] cancelNotification: %d
+10-29 08:37:56.623  2066  2614 I ActivityManager: Killing 4633:com.google.android.apps.nbu.files/u0a12 (adj 906): empty #17
+10-29 08:37:57.118   431   631 I BufferQueueProducer: [kuni.in.ReveraMusicPod/com.example.MainActivity#0](this:0x7a881d4800,id:4418,api:1,p:15459,c:431) queueBuffer: fps=21.08 dur=1375.76 max=402.06 min=13.57
+10-29 08:37:58.132   431   630 I BufferQueueProducer: [kuni.in.ReveraMusicPod/com.example.MainActivity#0](this:0x7a881d4800,id:4418,api:1,p:15459,c:431) queueBuffer: fps=26.65 dur=1013.18 max=401.14 min=6.20
+10-29 08:37:58.244  2066  2113 I ActivityManager: Start proc 5694:com.google.process.gapps/u11a8 for content provider com.google.android.gsf/.settings.GoogleSettingsProvider
+10-29 08:37:58.346  2066  2113 I ActivityManager: Start proc 5709:com.google.process.gservices/u11a8 for content provider com.google.android.gsf/.gservices.GservicesProvider
+10-29 08:37:58.518  2066  2113 I ActivityManager: Start proc 5727:com.google.android.apps.photos/u11a96 for service com.google.android.apps.photos/.backup.apiservice.grpc.PhotosBackupGrpcService
+10-29 08:37:58.980  2066  3172 I ActivityManager: Killing 4749:com.android.cellbroadcastreceiver/1000 (adj 906): empty #17
+10-29 08:37:59.537   431   631 I BufferQueueProducer: [kuni.in.ReveraMusicPod/com.example.MainActivity#0](this:0x7a881d4800,id:4418,api:1,p:15459,c:431) queueBuffer: fps=4.27 dur=1405.61 max=410.83 min=10.54
+10-29 08:38:00.612   431   630 I BufferQueueProducer: [kuni.in.ReveraMusicPod/com.example.MainActivity#0](this:0x7a881d4800,id:4418,api:1,p:15459,c:431) queueBuffer: fps=2.79 dur=1074.43 max=413.96 min=275.20
+10-29 08:38:01.614   431   630 I BufferQueueProducer: [kuni.in.ReveraMusicPod/com.example.MainActivity#0](this:0x7a881d4800,id:4418,api:1,p:15459,c:431) queueBuffer: fps=47.90 dur=1002.02 max=152.04 min=4.53
+10-29 08:38:02.656   431   631 I BufferQueueProducer: [kuni.in.ReveraMusicPod/com.example.MainActivity#0](this:0x7a881d4800,id:4418,api:1,p:15459,c:431) queueBuffer: fps=24.93 dur=1042.86 max=317.22 min=10.78
+10-29 08:38:02.782  2066  3779 I ActivityManager: Killing 4780:com.google.android.videos/u0a69 (adj 906): empty #17
+10-29 08:38:03.974   431   630 I BufferQueueProducer: [kuni.in.ReveraMusicPod/com.example.MainActivity#0](this:0x7a881d4800,id:4418,api:1,p:15459,c:431) queueBuffer: fps=31.88 dur=1317.57 max=406.00 min=4.96
+10-29 08:38:04.987   431   631 I BufferQueueProducer: [kuni.in.ReveraMusicPod/com.example.MainActivity#0](this:0x7a881d4800,id:4418,api:1,p:15459,c:431) queueBuffer: fps=18.76 dur=1012.91 max=412.78 min=8.73
+10-29 08:38:05.852  2066  2111 W ActivityManager: Bringing down service while still waiting for start foreground: ServiceRecord{64118f5 u0 kuni.in.ReveraMusicPod/com.example.service.MusicPlaybackService}
+10-29 08:38:05.938 15459 15459 E AndroidRuntime: FATAL EXCEPTION: main
+10-29 08:38:05.938 15459 15459 E AndroidRuntime: Process: kuni.in.ReveraMusicPod, PID: 15459
+10-29 08:38:05.938 15459 15459 E AndroidRuntime: android.app.RemoteServiceException: Context.startForegroundService() did not then call Service.startForeground(): ServiceRecord{64118f5 u0 kuni.in.ReveraMusicPod/com.example.service.MusicPlaybackService}
+10-29 08:38:05.938 15459 15459 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1765)
+10-29 08:38:05.938 15459 15459 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+10-29 08:38:05.938 15459 15459 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:193)
+10-29 08:38:05.938 15459 15459 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:6702)
+10-29 08:38:05.938 15459 15459 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+10-29 08:38:05.938 15459 15459 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:493)
+10-29 08:38:05.938 15459 15459 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:911)
+10-29 08:38:05.940 15459 15459 E CrashRecoveryManager: Uncaught exception in thread main: Context.startForegroundService() did not then call Service.startForeground(): ServiceRecord{64118f5 u0 kuni.in.ReveraMusicPod/com.example.service.MusicPlaybackService}
+10-29 08:38:05.940 15459 15459 E CrashRecoveryManager: android.app.RemoteServiceException: Context.startForegroundService() did not then call Service.startForeground(): ServiceRecord{64118f5 u0 kuni.in.ReveraMusicPod/com.example.service.MusicPlaybackService}
+10-29 08:38:05.965  2066  4777 W ActivityManager:   Force finishing activity kuni.in.ReveraMusicPod/com.example.MainActivity
+10-29 08:38:05.984  2066  2120 I WindowManager: Focus moving from Window{4f5fa15 u0 kuni.in.ReveraMusicPod/com.example.MainActivity} to Window{605a261 u0 Application Not Responding: kuni.in.ReveraMusicPod}
+10-29 08:38:05.987  2066  2112 I ActivityManager: Showing crash dialog for package kuni.in.ReveraMusicPod u0
+10-29 08:38:06.009  2066  2120 I WindowManager: Focus moving from Window{605a261 u0 Application Not Responding: kuni.in.ReveraMusicPod} to Window{8b721c2 u0 Application Error: kuni.in.ReveraMusicPod}
+10-29 08:38:06.017   431   631 I BufferQueueConsumer: [Application Not Responding: kuni.in.ReveraMusicPod#0](this:0x7a8802a800,id:4420,api:0,p:-1,c:431) setConsumerName: Application Not Responding: kuni.in.ReveraMusicPod#0
+10-29 08:38:06.017   431   631 I BufferQueueConsumer: [Application Not Responding: kuni.in.ReveraMusicPod#0](this:0x7a8802a800,id:4420,api:0,p:-1,c:431) setDefaultBufferSize: width=1218 height=761
+10-29 08:38:06.019   431   630 I BufferQueueProducer: [Application Not Responding: kuni.in.ReveraMusicPod#0](this:0x7a8802a800,id:4420,api:1,p:2066,c:431) connect(P): api=1 producer=(2066:system_server) producerControlledByApp=false
+10-29 08:38:06.026   431   630 I BufferQueueConsumer: [Application Error: kuni.in.ReveraMusicPod#0](this:0x7a8cd0d800,id:4421,api:0,p:-1,c:431) setConsumerName: Application Error: kuni.in.ReveraMusicPod#0
+10-29 08:38:06.026   431   630 I BufferQueueConsumer: [Application Error: kuni.in.ReveraMusicPod#0](this:0x7a8cd0d800,id:4421,api:0,p:-1,c:431) setDefaultBufferSize: width=1218 height=767
+10-29 08:38:06.028   431   631 I BufferQueueProducer: [Application Error: kuni.in.ReveraMusicPod#0](this:0x7a8cd0d800,id:4421,api:1,p:2066,c:431) connect(P): api=1 producer=(2066:system_server) producerControlledByApp=false
+10-29 08:38:06.073  2066  2120 I WindowManager: Losing delayed focus: Window{4f5fa15 u0 kuni.in.ReveraMusicPod/com.example.MainActivity}
+10-29 08:38:06.073  2066  2120 I WindowManager: Losing delayed focus: Window{605a261 u0 Application Not Responding: kuni.in.ReveraMusicPod}
+10-29 08:38:06.457  2066  2266 I ActivityManager: START u0 {flg=0x10008000 cmp=kuni.in.ReveraMusicPod/com.example.MainActivity (has extras)} from uid 10152
+10-29 08:38:06.468  2066  2111 W ActivityManager: Activity pause timeout for ActivityRecord{53a2727 u0 kuni.in.ReveraMusicPod/com.example.MainActivity t265 f}
+10-29 08:38:06.473   425   456 I vendor.mediatek.hardware.power@2.0-impl: notifyAppState pack:kuni.in.ReveraMusicPod, act:com.example.MainActivity, pid:15459, state:1
+10-29 08:38:06.485   431   630 I BufferQueueConsumer: [Splash Screen kuni.in.ReveraMusicPod#0](this:0x7a8cd86800,id:4422,api:0,p:-1,c:431) setConsumerName: Splash Screen kuni.in.ReveraMusicPod#0
+10-29 08:38:06.485   431   630 I BufferQueueConsumer: [Splash Screen kuni.in.ReveraMusicPod#0](this:0x7a8cd86800,id:4422,api:0,p:-1,c:431) setDefaultBufferSize: width=1080 height=2160
+10-29 08:38:06.501   431   630 I BufferQueueProducer: [Splash Screen kuni.in.ReveraMusicPod#0](this:0x7a8cd86800,id:4422,api:2,p:2066,c:431) connect(P): api=2 producer=(2066:system_server) producerControlledByApp=false
+10-29 08:38:06.518   431   431 I SurfaceFlinger: screenshot (kuni.in.ReveraMusicPod/com.example.MainActivity#0)
+10-29 08:38:08.307   431  1515 I BufferQueueProducer: [Application Error: kuni.in.ReveraMusicPod#0](this:0x7a8cd0d800,id:4421,api:1,p:2066,c:431) queueBuffer: fps=1.34 dur=2243.78 max=2189.90 min=25.59
+10-29 08:38:08.361  2066  4777 W ActivityManager:   Force finishing activity kuni.in.ReveraMusicPod/com.example.MainActivity
+10-29 08:38:08.363   431   630 I BufferQueueProducer: [Application Error: kuni.in.ReveraMusicPod#0](this:0x7a8cd0d800,id:4421,api:1,p:2066,c:431) disconnect(P): api 1
+10-29 08:38:08.368   431   431 I SurfaceFlinger: screenshot (Splash Screen kuni.in.ReveraMusicPod#0)
+10-29 08:38:08.399   431  1515 I BufferQueueProducer: [Splash Screen kuni.in.ReveraMusicPod#0](this:0x7a8cd86800,id:4422,api:2,p:2066,c:431) disconnect(P): api 2
+10-29 08:38:08.410   431   431 I BufferQueueConsumer: [Splash Screen kuni.in.ReveraMusicPod#0](this:0x7a8cd86800,id:4422,api:2,p:-1,c:-1) disconnect(C)
+10-29 08:38:08.410   431   431 I BufferQueue: [Splash Screen kuni.in.ReveraMusicPod#0](this:0x7a8cd86800,id:4422,api:2,p:-1,c:-1) ~BufferQueueCore
+10-29 08:38:08.411  2066  4777 W ActivityManager:   Force finishing activity kuni.in.ReveraMusicPod/com.example.MainActivity
+10-29 08:38:08.420  2066  4777 I ActivityManager: Killing 15459:kuni.in.ReveraMusicPod/u0a152 (adj 0): crash
+10-29 08:38:08.432  2066  2120 I WindowManager: Focus moving from Window{8b721c2 u0 Application Error: kuni.in.ReveraMusicPod EXITING} to Window{605a261 u0 Application Not Responding: kuni.in.ReveraMusicPod}
+10-29 08:38:08.436   431   809 I BufferQueueProducer: [Application Not Responding: kuni.in.ReveraMusicPod#0](this:0x7a8802a800,id:4420,api:1,p:2066,c:431) disconnect(P): api 1
+10-29 08:38:08.449  2066  2120 I WindowManager: Focus moving from Window{605a261 u0 Application Not Responding: kuni.in.ReveraMusicPod EXITING} to null
+10-29 08:38:08.458  2066  2113 I ActivityManager: Start proc 5797:com.google.android.googlequicksearchbox:googleapp/u0a31 for service com.google.android.googlequicksearchbox/com.google.android.apps.gsa.nowoverlayservice.DrawerOverlayService
+10-29 08:38:08.470  2066  2267 W InputDispatcher: channel '4f5fa15 kuni.in.ReveraMusicPod/com.example.MainActivity (server)' ~ Consumer closed input channel or an error occurred.  events=0x9
+10-29 08:38:08.470  2066  2267 E InputDispatcher: channel '4f5fa15 kuni.in.ReveraMusicPod/com.example.MainActivity (server)' ~ Channel is unrecoverably broken and will be disposed!
+10-29 08:38:08.484   431  1442 I BufferQueueProducer: [kuni.in.ReveraMusicPod/com.example.MainActivity#0](this:0x7a881d4800,id:4418,api:1,p:15459,c:431) disconnect(P): api 1
+10-29 08:38:08.486 14741 14741 I NewAvrcpMediaPlayerList: onAddressedPlayerChanged: component=kuni.in.ReveraMusicPod
+10-29 08:38:08.487  2066  3192 I WindowManager: WIN DEATH: Window{4f5fa15 u0 kuni.in.ReveraMusicPod/com.example.MainActivity}
+10-29 08:38:08.487 14741 14741 W NewAvrcpMediaPlayerList: kuni.in.ReveraMusicPod is already the active player
+10-29 08:38:08.487  2066  3192 W InputDispatcher: Attempted to unregister already unregistered input channel '4f5fa15 kuni.in.ReveraMusicPod/com.example.MainActivity (server)'
+10-29 08:38:08.491 14741 14741 W NewAvrcpMediaPlayerWrapper: The session was destroyed kuni.in.ReveraMusicPod
+10-29 08:38:08.559   431  1442 W SurfaceFlinger: Attempting to set client state on removed layer: kuni.in.ReveraMusicPod/com.example.MainActivity#0
+10-29 08:38:08.559   431  1442 W SurfaceFlinger: Attempting to destroy on removed layer: AppWindowToken{d5dd9af token=Token{ac92d8e ActivityRecord{a45f989 u0 kuni.in.ReveraMusicPod/com.example.MainActivity t266}}}#0
+10-29 08:38:08.559   431  1442 W SurfaceFlinger: Attempting to destroy on removed layer: AppWindowToken{8f19b7d token=Token{dabdd4 ActivityRecord{53a2727 u0 kuni.in.ReveraMusicPod/com.example.MainActivity t265}}}#0
+10-29 08:38:08.559   431  1442 W SurfaceFlinger: Attempting to destroy on removed layer: kuni.in.ReveraMusicPod/com.example.MainActivity#0
+10-29 08:38:08.559   431  1442 W SurfaceFlinger: Attempting to destroy on removed layer: 4f5fa15 kuni.in.ReveraMusicPod/com.example.MainActivity#0
+10-29 08:38:08.560  2066  2120 W ActivityManager: setHasOverlayUi called on unknown pid: 15459
+10-29 08:38:08.565   431  1515 W SurfaceFlinger: Attempting to destroy on removed layer: 8b721c2 Application Error: kuni.in.ReveraMusicPod#0
+10-29 08:38:08.569   431   431 I BufferQueueConsumer: [kuni.in.ReveraMusicPod/com.example.MainActivity#0](this:0x7a881d4800,id:4418,api:1,p:-1,c:-1) disconnect(C)
+10-29 08:38:08.569   431   431 I BufferQueueConsumer: [Application Error: kuni.in.ReveraMusicPod#0](this:0x7a8cd0d800,id:4421,api:1,p:-1,c:-1) disconnect(C)
+10-29 08:38:08.570   431   431 I BufferQueue: [kuni.in.ReveraMusicPod/com.example.MainActivity#0](this:0x7a881d4800,id:4418,api:1,p:-1,c:-1) ~BufferQueueCore
+10-29 08:38:08.574   431   431 I BufferQueue: [Application Error: kuni.in.ReveraMusicPod#0](this:0x7a8cd0d800,id:4421,api:1,p:-1,c:-1) ~BufferQueueCore
+10-29 08:38:08.631   431  1515 W SurfaceFlinger: Attempting to destroy on removed layer: 605a261 Application Not Responding: kuni.in.ReveraMusicPod#0
+10-29 08:38:08.640   431   431 I BufferQueueConsumer: [Application Not Responding: kuni.in.ReveraMusicPod#0](this:0x7a8802a800,id:4420,api:1,p:-1,c:-1) disconnect(C)
+10-29 08:38:08.640   431   431 I BufferQueue: [Application Not Responding: kuni.in.ReveraMusicPod#0](this:0x7a8802a800,id:4420,api:1,p:-1,c:-1) ~BufferQueueCore
+10-29 08:38:09.953  2066  2113 I ActivityManager: Start proc 5876:com.android.chrome:webview_service/u0a93 for service com.android.chrome/org.chromium.android_webview.services.VariationsSeedServer
+10-29 08:38:10.285  2066  2113 I ActivityManager: Start proc 5899:com.android.chrome:sandboxed_process0/u0i248 for webview_service com.google.android.googlequicksearchbox/org.chromium.content.app.SandboxedProcessService0
+10-29 08:38:10.296  2066  2113 I ActivityManager: Start proc 5907:com.android.chrome:sandboxed_process0/u0i249 for webview_service com.google.android.googlequicksearchbox/org.chromium.content.app.SandboxedProcessService0
+10-29 08:38:10.309  2066  4777 I ActivityManager: Killing 5899:com.android.chrome:sandboxed_process0/u0a31i248 (adj 900): isolated not needed
+10-29 08:38:10.310  2066  4777 I ActivityManager: Killing 4925:com.google.android.apps.docs/u0a77 (adj 906): empty #17
+10-29 08:38:10.543  2066  2113 I ActivityManager: Start proc 5957:com.android.chrome:webview_apk/u0a93 for service com.android.chrome/org.chromium.android_webview.nonembedded.AwComponentUpdateService
+10-29 08:38:11.087  2066  5965 I ActivityManager: Killing 5038:com.google.android.marvin.talkback/u0a99 (adj 904): empty #17
+DaichinoMac-mini:~ kuni$ 
