@@ -1,5 +1,12 @@
 # CHANGELOG
 
+## [5][0.5]に対する変更 - 2026-11-14
+
+### Added & Improved (追加・改善機能)
+- **Google Play公式署名鍵（`reveramusicpod.jks`）による再署名ビルド（versionCode: 5, versionName: "0.5"）**:
+  - キーストアファイルを1つ上の階層（プロジェクト直下から独立した安全な場所）に待避し、GitHub等への誤コミットを物理的に防止しました。
+  - Google Play Consoleが要求する正規の証明書フィンガープリント（`SHA1: 62:85:6C:A3:EA:9A:AA:9C:EF:BD:ED:6F:A2:5B:E2:F2:8A:36:43:F5`）で正しく署名された App Bundle (`.aab`) および APK (`.apk`) を作成しました。
+
 ## [4][0.4]に対する変更 - 2026-11-13
 
 ### Added & Improved (追加・改善機能)

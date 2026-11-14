@@ -17,29 +17,43 @@ android {
     applicationId = "in.kuni.revera"
     minSdk = 24
     targetSdk = 36
-    versionCode = 4
-    versionName = "0.4"
+    versionCode = 5
+    versionName = "0.5"
 
     testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
   }
 
   signingConfigs {
     create("release") {
-      val customKeystore = file(System.getenv("KEYSTORE_PATH") ?: "${rootDir}/my-upload-key.jks")
-      if (customKeystore.exists()) {
-        storeFile = customKeystore
-        storePassword = System.getenv("STORE_PASSWORD")
-        keyAlias = "upload"
-        keyPassword = System.getenv("KEY_PASSWORD")
+      val envPath = System.getenv("KEYSTORE_PATH")
+      val parentKeystore = file("${rootDir}/../reveramusicpod.jks")
+      val homeKeystore = file("${System.getProperty("user.home")}/.android/reveramusicpod.jks")
+      val rootKeystore = file("${rootDir}/reveramusicpod.jks")
+
+      val uploadKeystore = when {
+        !envPath.isNullOrEmpty() && file(envPath).exists() -> file(envPath)
+        parentKeystore.exists() -> parentKeystore
+        homeKeystore.exists() -> homeKeystore
+        rootKeystore.exists() -> rootKeystore
+        else -> null
+      }
+
+      if (uploadKeystore != null) {
+        storeFile = uploadKeystore
+        storePassword = System.getenv("STORE_PASSWORD") ?: "prn4jx0o"
+        keyAlias = System.getenv("KEY_ALIAS") ?: "key0"
+        keyPassword = System.getenv("KEY_PASSWORD") ?: "prn4jx0o"
       } else {
-        storeFile = file("${rootDir}/debug.keystore")
+        val userDebugKeystore = file("${System.getProperty("user.home")}/.android/debug.keystore")
+        storeFile = if (userDebugKeystore.exists()) userDebugKeystore else file("${rootDir}/debug.keystore")
         storePassword = "android"
         keyAlias = "androiddebugkey"
         keyPassword = "android"
       }
     }
     create("debugConfig") {
-      storeFile = file("${rootDir}/debug.keystore")
+      val userDebugKeystore = file("${System.getProperty("user.home")}/.android/debug.keystore")
+      storeFile = if (userDebugKeystore.exists()) userDebugKeystore else file("${rootDir}/debug.keystore")
       storePassword = "android"
       keyAlias = "androiddebugkey"
       keyPassword = "android"
